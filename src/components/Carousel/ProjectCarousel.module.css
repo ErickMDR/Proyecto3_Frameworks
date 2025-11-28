@@ -1,0 +1,212 @@
+.carouselContainer {
+  margin: 1rem 0;
+  background-color: var(--white);
+  border-radius: 16px;
+  padding: 0.5rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.carouselTitle {
+  text-align: center;
+  color: var(--secondary-green);
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.swiper {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.slideContent {
+  display: flex;
+  min-height: 350px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.slideImage {
+  flex: 1;
+  min-height: 350px;
+  background-color: var(--light-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.projectImage {
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.placeholderImage {
+  text-align: center;
+  color: var(--text-light);
+}
+
+.placeholderImage span {
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.slideInfo {
+  flex: 1;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--white);
+}
+
+.projectMeta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.projectYear {
+  background-color: var(--primary-green);
+  color: white;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.collabBadge {
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.collabBadge.solo {
+  background-color: #e8f5e9;
+  color: var(--secondary-green);
+}
+
+.collabBadge.team {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+
+.projectTitle {
+  color: var(--secondary-green);
+  margin: 0 0 1rem 0;
+  font-size: 1.6rem;
+  line-height: 1.3;
+}
+
+.projectDescription {
+  color: var(--text-dark);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  flex: 1;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.techTag {
+  background-color: #f0f7f1;
+  color: var(--secondary-green);
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid #d4ebd9;
+}
+
+.moreTechs {
+  color: var(--text-light);
+  font-size: 0.85rem;
+  align-self: center;
+  margin-left: 0.5rem;
+}
+
+.projectActions {
+  display: flex;
+  gap: 1rem;
+}
+
+.viewDetailsBtn {
+  background-color: var(--primary-green);
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  flex: 1;
+}
+
+.viewDetailsBtn:hover {
+  background-color: var(--secondary-green);
+  color: white;
+}
+
+.codeLinkBtn {
+  background-color: var(--dark-accent);
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  flex: 1;
+}
+
+.codeLinkBtn:hover {
+  background-color: var(--secondary-green);
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .slideContent {
+    flex-direction: column;
+    min-height: auto;
+  }
+  
+  .slideImage {
+    min-height: 200px;
+    padding: 1.5rem;
+  }
+  
+  .projectImage {
+    max-height: 200px;
+  }
+  
+  .slideInfo {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .carouselContainer {
+    padding: 1rem;
+  }
+  
+  .carouselTitle {
+    font-size: 1.5rem;
+  }
+  
+  .projectTitle {
+    font-size: 1.3rem;
+  }
+  
+  .projectActions {
+    flex-direction: column;
+  }
+}

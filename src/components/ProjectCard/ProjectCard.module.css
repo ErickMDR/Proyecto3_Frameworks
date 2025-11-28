@@ -1,0 +1,123 @@
+.projectCard {
+  background-color: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.cardHeader {
+  background: var(--primary-green);
+  color: white;
+  padding: 1.5rem;
+}
+
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.8rem;
+}
+
+.projectTitle {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+  flex: 1;
+  line-height: 1.3;
+}
+
+.projectYear {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+.projectCategory {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  font-weight: 500;
+}
+
+.cardBody {
+  padding: 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectDescription {
+  color: var(--text-dark);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  flex: 1;
+}
+
+.collaborationInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.collabBadge {
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.collabBadge.solo {
+  background-color: #e8f5e9;
+  color: var(--secondary-green);
+}
+
+.collabBadge.team {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+
+.teamSize {
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+
+.technologiesSection {
+  margin-bottom: 1.5rem;
+}
+
+.technologiesSection h4 {
+  font-size: 1rem;
+  color: var(--secondary-green);
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+
+.technologiesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.techTag {
+  background-color: #f0f7f1;
+  color: var(--secondary-green);
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid #d4ebd9;
+}
