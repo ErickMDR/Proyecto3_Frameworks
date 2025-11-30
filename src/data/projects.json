@@ -1,0 +1,201 @@
+[
+  {
+    "id": 1,
+    "title": "Sistema Academia",
+    "description": "Sistema de escritorio para gestión académica de una institución educativa.",
+    "technologies": ["C#", "Windows Forms", "PostgreSQL"],
+    "images": [
+      "/images/img1_p1.png",
+      "/images/img2_p1.png",
+      "/images/img3_p1.png",
+      "/images/img4_p1.png",
+      "/images/img5_p1.png",
+      "/images/img6_p1.png",
+      "/images/img7_p1.png"
+    ],
+    "videos": ["/videos/vid1_p1.mp4"],
+    "codeLink": "https://github.com/ErickMDR/Sistema-Academia.git",
+    "year": 2025,
+    "category": "Desktop Development",
+    "collaboration": {
+      "solo": false,
+      "developers": ["Gabriela Rey","Alex Hernández"]
+    },
+    "features": ["Inscripción de estudiantes", "Asignación de notas a estudiantes", "Gestión de materias", "Creación de usuarios"],
+    "duration": "2 meses"
+  },
+  {
+    "id": 2,
+    "title": "Socket Reflection",
+    "description": "Aplicación de escritorio para comunicación mediante sockets utilizando reflexión.",
+    "technologies": ["C#", "Windows Forms", "PostgreSQL"],
+    "images": [
+      "/images/img1_p2.png",
+      "/images/img2_p2.png",
+      "/images/img3_p2.png",
+      "/images/img4_p2.png"
+    ],
+    "videos": ["/videos/vid1_p2.mp4"],
+    "codeLink": "https://github.com/ErickMDR/Socket_Reflection.git",
+    "year": 2025,
+    "category": "Desktop Development",
+    "collaboration": {
+      "solo": false,
+      "developers": ["Gabriela Rey"]
+    },
+    "features": ["Comunicación mediante sockets", "Reflexión en tiempo de ejecución", " Interfaz gráfica intuitiva"],
+    "duration": "2 semanas"
+  },
+  {
+    "id": 3,
+    "title": "Algoritmos FIFO, LIFO y RR",
+    "description": "Visualización de algoritmos de planificación de procesos FIFO, LIFO y Round Robin.",
+    "technologies": ["C#", "Windows Forms"],
+    "images": [
+      "/images/img1_p3.png",
+      "/images/img2_p3.png"
+    ],
+    "videos": ["/videos/vid1_p3.mp4"],
+    "codeLink": "https://github.com/ErickMDR/FIFO-LIFO-RR.git",
+    "year": 2025,
+    "category": "Desktop Development",
+    "collaboration": {
+      "solo": true,
+      "developers": []
+    },
+    "features": ["Algoritmos de planificación de procesos", "Sistemas Operativos"],
+    "duration": "2 semanas"
+  },
+  {
+    "id": 4,
+    "title": "Aplicación Web de Recetas de Cocina",
+    "description": "Aplicación web moderna desarrollada utilizando frameworks de front-end con la capacidad de gestionar recetas de cocina.",
+    "technologies": ["React", "CSS", "JavaScript"],
+    "images": [
+      "/images/img1_p4.png",
+      "/images/img2_p4.png",
+      "/images/img3_p4.png",
+      "/images/img4_p4.png",
+      "/images/img5_p4.png",
+      "/images/img6_p4.png"
+    ],
+    "videos": ["/videos/vid1_p4.mp4"],
+    "codeLink": "https://github.com/ErickMDR/Proyecto1_Frameworks.git",
+    "year": 2025,
+    "category": "Web Development",
+    "collaboration": {
+      "solo": true,
+      "developers": []
+    },
+    "features": ["Interfaz adaptable", "CRUD", "Componentes Reutilizables"],
+    "duration": "1 mes"
+  },
+  {
+    "id": 5,
+    "title": "Sistema de Procesamiento Automático de Facturas con IA",
+    "description": "Proyecto de inteligencia artificial para análisis y gestión automatizada de facturas en PDF o imágenes y envío por WhatsApp para su aprobación o rechazo.",
+    "technologies": ["Python", "SQLite", "Tesseract", "Poppler", "Twilio SendGrid"],
+    "images": [
+      "/images/img1_p5.png",
+      "/images/img2_p5.png"
+    ],
+    "videos": [],
+    "codeLink": "https://github.com/ErickMDR/Proyecto4_IA.git",
+    "year": 2025,
+    "category": "Artificial Intelligence",
+    "collaboration": {
+      "solo": true,
+      "developers": []
+    },
+    "features": ["Análisis de Datos", "Procesamiento de Datos", "Modelos de ML"],
+    "duration": "2 semanas"
+  },
+  {
+    "id": 6,
+    "title": "Sistema RPA para Análisis de Ventas y Envío de Reportes por WhatsApp",
+    "description": "Sistema RPA (Robotic Process Automation) para análisis automatizado de datos de ventas, generación de reportes financieros y envío automatizado de resultados por WhatsApp con gráficos interactivos.",
+    "technologies": ["Python", "Pillow", "Pandas", "Matplotlib", "Twilio"],
+    "images": [
+      "/images/img1_p6.png",
+      "/images/img2_p6.png"
+    ],
+    "videos": [],
+    "codeLink": "https://github.com/ErickMDR/Proyecto3_IA.git",
+    "year": 2025,
+    "category": "Artificial Intelligence",
+    "collaboration": {
+      "solo": true,
+      "developers": []
+    },
+    "features": ["Modelos de Deep Learning", "Visualización de Resultados", "API de Reportes"],
+    "duration": "2 semanas"
+  },
+  {
+    "id": 7,
+    "title": "Visualizadores de tiempo",
+    "description": "Aplicación web diseñada para la visualización de datos de tiempo utilizando Angular.",
+    "technologies": ["Angular", "CSS", "TypeScript"],
+    "images": [
+      "/images/img1_p7.png",
+      "/images/img2_p7.png",
+      "/images/img3_p7.png",
+      "/images/img4_p7.png",
+      "/images/img5_p7.png",
+      "/images/img6_p7.png"
+    ],
+    "videos": ["/videos/vid1_p7.mp4"],
+    "codeLink": "https://github.com/ErickMDR/Proyecto2_Frameworks.git",
+    "year": 2025,
+    "category": "Web Development",
+    "collaboration": {
+      "solo": true,
+      "developers": []
+    },
+    "features": ["Visualizadores de Tiempo", "Interfaz Adaptable", "Componentes Reutilizables"],
+    "duration": "1 mes"
+  },
+  {
+    "id": 8,
+    "title": "Aplicación de Finanzas Personales",
+    "description": "Aplicación web desarrollada en equipo para el seguimiento y control de finanzas personales mensuales.",
+    "technologies": ["JavaScript", "CSS", "Charts"],
+    "images": [
+      "/images/img1_p8.png",
+      "/images/img2_p8.png",
+      "/images/img3_p8.png",
+      "/images/img4_p8.png"
+    ],
+    "videos": [],
+    "codeLink": "https://github.com/gabrp2908/CliWeb_Proyecto3.git",
+    "year": 2025,
+    "category": "Web Development",
+    "collaboration": {
+      "solo": false,
+      "developers": ["Gabriela Rey"]
+    },
+    "features": ["Gestión de finanzas", "Dashboard", "Gráficas interactivas"],
+    "duration": "1 mes"
+  },
+  {
+    "id": 9,
+    "title": "Trivia Web",
+    "description": "Esta es una aplicación web que simula un juego de trivia interactivo. Las preguntas se obtienen en tiempo real desde la API y gestiona la experiencia completa del usuario con temporizadores y puntuación.",
+    "technologies": ["JavaScript", "HTML", "CSS"],
+    "images": [
+      "/images/img1_p9.png",
+      "/images/img2_p9.png",
+      "/images/img3_p9.png",
+      "/images/img4_p9.png"
+    ],
+    "videos": ["/videos/vid1_p9.mp4"],
+    "codeLink": "https://github.com/ErickMDR/Proyecto2_Clientes.git",
+    "year": 2025,
+    "category": "Web Development",
+    "collaboration": {
+      "solo": true,
+      "developers": []
+    },
+    "features": ["CRUD de Clientes", "Reportes", "Búsqueda y Filtros"],
+    "duration": "1 mes"
+  }
+]

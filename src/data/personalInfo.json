@@ -1,0 +1,120 @@
+{
+  "name": "Erick Manuel Díaz Rodríguez",
+  "title": "Ingeniero de Telecomunicaciones",
+  "contact": {
+    "email": "erickdiaz.rdgz@gmail.com",
+    "phone": "+584246233802",
+    "location": "San Francisco, Zulia, Venezuela"
+  },
+  "birthDate": "27 de septiembre de 2002",
+  "nationality": "Venezolana",
+  "civilStatus": "Soltero",
+  "idNumber": "V-29.963.164",
+  "about": "Ingeniero de Telecomunicaciones con experiencia en docencia universitaria y desarrollo de software. Apasionado por la tecnología, la educación y la innovación. Cuento con certificaciones CCNA y una sólida formación académica, habiendo obtenido 10 certificados de cuadro de honor durante mi carrera.",
+  "competencies": [
+    "Excelente comunicación verbal y escrita",
+    "Capacidad de trabajo bajo presión",
+    "Proactividad y Disciplina",
+    "Organización y Planificación",
+    "Capacidad de aprendizaje y adaptación"
+  ],
+  "languages": [
+    { "name": "Español", "level": "Nativo" },
+    { "name": "Inglés", "level": "B2" }
+  ],
+  "experience": [
+    {
+      "role": "Docente",
+      "company": "Universidad Rafael Urdaneta",
+      "period": "may 2024 – Actualidad",
+      "location": "Maracaibo, Venezuela",
+      "subjects": [
+        "Redes de Comunicaciones I",
+        "Matemática II",
+        "Laboratorio de Electrónica I y II",
+        "Investigación de Operaciones I",
+        "Álgebra Lineal"
+      ]
+    },
+    {
+      "role": "Preparador de Matemática II",
+      "company": "Universidad Rafael Urdaneta",
+      "period": "oct 2022 – abr 2024",
+      "location": "Maracaibo, Venezuela",
+      "description": "Asesorar estudiantes que requieran apoyo en la materia, preparación de material didáctico y apoyo en evaluaciones."
+    },
+    {
+      "role": "Pasantías profesionales",
+      "company": "Corporación MATRIX TV C.A. (AIRTEK)",
+      "period": "dic 2023 – ene 2024",
+      "location": "Maracaibo, Venezuela",
+      "description": "Actualizar los formatos y documentos empleados por los departamentos del Sistema Integrado de Gestión. Crear formatos de estadísticas de los indicadores de gestión."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Curso de Perfeccionamiento Docente",
+      "institution": "Universidad Rafael Urdaneta",
+      "period": "ene 2025 – Actualidad",
+      "location": "Maracaibo, Venezuela",
+      "status": "En curso"
+    },
+    {
+      "degree": "Ingeniería de Computación",
+      "institution": "Universidad Rafael Urdaneta",
+      "period": "agt 2024 – Actualidad",
+      "location": "Maracaibo, Venezuela",
+      "status": "En curso"
+    },
+    {
+      "degree": "Ingeniería de Telecomunicaciones",
+      "institution": "Universidad Rafael Urdaneta",
+      "period": "ene 2020 – abr 2024",
+      "location": "Maracaibo, Venezuela",
+      "details": [
+        "Promedio: 18.01 / 20",
+        "10 certificados de cuadro de honor obtenidos"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "CCNAv7.0: Enterprise Networking, Security and Automation",
+      "hours": "72 horas",
+      "date": "sep 2024"
+    },
+    {
+      "name": "CCNAv7.0: Switching, Routing, and Wireless Essentials",
+      "hours": "72 horas",
+      "date": "jun 2024"
+    },
+    {
+      "name": "CCNAv7.0: Introduction to Networks",
+      "hours": "72 horas",
+      "date": "sep 2022"
+    }
+  ],
+  "skills": {
+    "technical": [
+      "Microsoft Office (Word, Excel, PowerPoint)",
+      "Cisco Packet Tracer",
+      "Redes de Comunicación",
+      "Desarrollo Web",
+      "Desarrollo de Frotend y Backend",
+      "Bases de Datos"
+    ],
+    "personal": [
+      "Comunicación efectiva",
+      "Trabajo bajo presión",
+      "Proactividad",
+      "Disciplina",
+      "Organización",
+      "Adaptabilidad"
+    ]
+  },
+  "social": {
+    "github": "https://github.com/ErickMDR",
+    "instagram": "https://www.instagram.com/erimdr?igsh=Nmw0d24ybDRycmJv",
+    "twitter": "https://x.com/Erikuz22?s=09"
+  }
+}
