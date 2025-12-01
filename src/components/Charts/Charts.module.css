@@ -1,0 +1,42 @@
+.chartContainer {
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  margin-bottom: 2rem;
+  height: 100%;
+}
+
+.chartContainer h3 {
+  color: var(--secondary-green);
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.customTooltip {
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.customTooltip .label {
+  font-weight: 600;
+  color: var(--secondary-green);
+  margin-bottom: 0.5rem;
+}
+
+.customTooltip .value {
+  color: var(--text-dark);
+  margin: 0.25rem 0;
+}
+
+.noData {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-light);
+  font-style: italic;
+}
